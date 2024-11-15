@@ -6,5 +6,5 @@
 city="Kathmandu"
 population=19992121
 
-print(city)
-print(population)
+print(city , population)
+
