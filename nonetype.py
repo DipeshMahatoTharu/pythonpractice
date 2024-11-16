@@ -10,4 +10,4 @@ def noReturnvalue():
     pass
 
 check=noReturnvalue()
-print("The type is :", type(noReturnvalue))
+print("The type is :", type(check))
