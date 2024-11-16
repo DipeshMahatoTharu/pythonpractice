@@ -36,9 +36,9 @@ person={"name": "Alice","age":25}
 
 key1,key2=person.keys()
 
-value1=person[key1]
-value2=person[key2]
+valuue1=person[key1]
+valuue2=person[key2]
 
 
-print(f"{key1},{value1}")
-print(f"{key2},{value2}")
+print(f"{key1},{valuue1}")
+print(f"{key2},{valuue2}")

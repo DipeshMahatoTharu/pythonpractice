@@ -30,3 +30,11 @@ try:
     print(colors)
 except TypeError as e:
     print("error",e)
+    
+# Range
+number=range(1,11)
+print("The list of numbers are :",list(number))
+
+# for(i=2; i<=11 ; i+=2)
+evenNumber=range(2,11,2)
+print("The even numbers are :",list(evenNumber))
