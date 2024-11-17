@@ -21,3 +21,9 @@ result=complex(z)
 print(result)
 
 print(type(result))
+
+# What will happen if you try to convert a complex number to another type in Python? Explain with an example.
+
+complenum= 10+11j
+convertToInt=int(complenum)
+print("Conversion",convertToInt)
