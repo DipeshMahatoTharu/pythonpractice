@@ -69,11 +69,10 @@ else:
     print("number is odd")
 
 
-#        Using Built-in Functions
+#Using Built-in Functions
 
 # What does the isinstance() function do in Python?
 # Write a Python program to check if the variable x = [1, 2, 3] is of type list using isinstance(). 
-
 x = [1, 2, 3]
 
 if isinstance(x,list):
