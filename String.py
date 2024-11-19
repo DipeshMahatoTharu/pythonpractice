@@ -44,7 +44,8 @@ if "hard" not in text:
 
 
 # Question: Create a program that checks if the string "expensive" 
-# is not present in "The best things in life are free!" and appends "affordable" to the string if true.
+# is not present in "The best things in life are free!" and
+# appends "affordable" to the string if true.
 text="The best things in life are free!"
 if "expensive" not in text:
     print("expensive not present")

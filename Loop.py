@@ -13,6 +13,7 @@ for char in number:
     if char  in 'aeiou':
         vowelLetter +=1
         print(char,end= " ")
-print("\n The vowel letters are :", vowelLetter)
+print("\nThe vowel letters are :", vowelLetter)
+
 
 

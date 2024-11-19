@@ -33,6 +33,6 @@ print(f"The discounted price is {num:.2f}   dollars")
 # Can placeholders in f-strings contain Python code, such as math operations? Give an example.
 # Write a Python program to calculate and display "3 items at $20 each is $60" using f-strings.
 
-item,firstDollar,SecondDollar=3,20,60
+item,firstDollar=3,20
 Totalprice=firstDollar*item
 print(f"The total cost for {item} items {firstDollar} at each is : {Totalprice} ")
