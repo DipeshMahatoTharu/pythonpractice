@@ -9,3 +9,16 @@ for i in numbers:
         evennum.append(i)
 
 print(evennum)
+
+#Given a list of names ["Alice", "Bob", "Charlie", "Diana"],
+# create a new list containing only the names that start with the letter "C."
+
+name =["Alice", "Bob", "Charlie", "Diana"]
+name_start_with_c=[name for name in name if name.startswith("C")]
+print(name_start_with_c)
+
+# Create a list of squares for numbers from 1 to 10 using list comprehension.
+
+squareNumbers=[x**2 for x in range(1,11)]
+print(squareNumbers)
+
